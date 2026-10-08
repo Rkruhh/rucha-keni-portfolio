@@ -12,8 +12,8 @@ export function Experience() {
             Work that moved the numbers
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Dashboards, ETL, and KPI reporting across operations, content, and
-            enterprise systems—from SAP and Oracle into views stakeholders actually use.
+            Demand forecasting, inventory, S&OP, and procurement analytics—from SAP MM
+            and ERP into Power BI views planners and leadership actually use.
           </p>
         </div>
 

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description: profile.summary,
   authors: [{ name: profile.name }],
   openGraph: {
-    title: `${profile.shortName} — Data Analyst`,
+    title: `${profile.shortName} — Supply Chain Analyst`,
     description: profile.summary,
     type: "website",
   },

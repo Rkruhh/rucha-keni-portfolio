@@ -27,11 +27,11 @@ export function Contact() {
             Contact
           </p>
           <h2 className="mt-3 font-heading text-4xl sm:text-5xl">
-            Let&apos;s talk data, dashboards, and cleaner pipelines
+            Let&apos;s talk demand, inventory, and cleaner plans
           </h2>
           <p className="mt-4 max-w-md text-muted-foreground">
-            Open to data analyst roles across domains. The form opens your email
-            client so the message goes directly to me.
+            Open to supply chain analyst roles. The form opens your email client
+            so the message goes directly to me.
           </p>
 
           <ul className="mt-8 space-y-3 text-sm">

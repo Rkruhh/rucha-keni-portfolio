@@ -1,8 +1,8 @@
 export const profile = {
   name: "Rucha Dilip Keni",
   shortName: "Rucha Keni",
-  title: "Data Analyst",
-  location: "Florida, United States",
+  title: "Supply Chain Analyst",
+  location: "Florida, USA",
   email: "rucha.k@itjobinbox.com",
   phone: "+1 813-358-6151",
   phoneHref: "tel:+18133586151",
@@ -10,109 +10,111 @@ export const profile = {
   github: "https://github.com/Rkruhh",
   resumePath: "/RuchaKeni_Resume.pdf",
   summary:
-    "Analyst with 3+ years of experience turning messy operational and ERP data into decision-ready dashboards and automated pipelines—so teams can move faster with fewer surprises.",
+    "Supply Chain Analyst with 5+ years of experience in medical devices, retail, manufacturing, and procurement. I forecast demand and manage inventory with Python, SQL, Excel, Power BI, and SAP MM—cutting forecast error, stockouts, and excess inventory while replacing manual reports with live dashboards.",
 };
 
 export const metrics = [
   {
-    value: "40%",
-    label: "Faster executive decisions",
-    detail: "Power BI executive dashboard",
+    value: "38%→29%",
+    label: "Lower forecast MAPE",
+    detail: "Python and SQL demand models",
   },
   {
-    value: "5M+",
-    label: "Daily records processed",
-    detail: "SQL + Python ETL",
-  },
-  {
-    value: "28%",
-    label: "Fewer data errors",
-    detail: "Validation pipelines",
-  },
-  {
-    value: "45 min",
-    label: "Reporting cycle",
-    detail: "Down from 6 hours",
-  },
-  {
-    value: "12%",
+    value: "31–32%",
     label: "Fewer stockouts",
-    detail: "Demand vs. availability analysis",
+    detail: "Replenishment and safety stock",
   },
   {
-    value: "7.2%",
-    label: "YoY spend reduction",
-    detail: "Cost and performance analytics",
+    value: "$2.4M",
+    label: "Excess inventory removed",
+    detail: "Plus $2.1M at a second employer",
+  },
+  {
+    value: "6→2 days",
+    label: "Monthly reporting cycle",
+    detail: "67% faster with Power BI",
+  },
+  {
+    value: "74%→90%",
+    label: "On-time delivery",
+    detail: "Supplier scorecards in Power BI",
+  },
+  {
+    value: "$1.6M",
+    label: "SLOB inventory reduced",
+    detail: "Consignment and hospital tracking",
   },
 ];
 
 export const experience = [
   {
-    company: "Holiday Channel",
-    role: "Analyst",
+    company: "Johnson & Johnson",
+    role: "Supply Chain Analyst II",
     location: "USA",
-    dates: "Jul 2026 — Present",
+    dates: "Jul 2026 — Current",
     bullets: [
-      "Engineered a Python + SQL data validation and reconciliation pipeline to process and sync 5K+ Supabase records across content and marketplace data, automating duplicate detection, missing-value checks, and consistency validation.",
-      "Developed Power BI dashboards and KPI reports covering content, search, marketplace, and user-behavior metrics, using trend and anomaly analysis to track operational KPIs through automated, centralized reporting.",
+      "Support statistical demand forecast models in Python and SQL across 800+ medical device SKUs, integrating historical sales trends with commercial inputs to improve MAPE-based forecast accuracy against baseline.",
+      "Maintain and enhance consignment stock and hospital inventory tracking dashboards in Power BI, reducing manual reconciliation effort by 40% and supporting SLOB inventory reduction of $1.6M.",
+      "Coordinate S&OP/IBP demand review inputs with Commercial, Warehouse, Customer Service, and Quality teams across 6 distribution regions, contributing to a 14% reduction in forecast bias.",
+      "Build scenario analysis models in Excel and SQL for new product launches and supply disruptions, supporting proactive mitigation for 25+ risk events and protecting 97% on-time delivery.",
+      "Consolidate multi-source KPI reporting (forecast accuracy, inventory turnover, OTD) into a single Power BI suite, shrinking monthly reporting cycle from 6 days to 2 days (67% faster).",
     ],
   },
   {
     company: "Barnes & Noble Education, Inc.",
-    role: "Supply Chain Data Analyst",
+    role: "Supply Chain Analyst",
     location: "USA",
     dates: "Aug 2024 — May 2026",
     bullets: [
-      "Analyzed 20K–30K records across sales, inventory, course requirements, and enrollment to find demand vs. availability gaps, reducing stockout incidents by 12% and cutting external purchase volume by 10% through internal transfers.",
-      "Built a recurring Power BI dashboard with DAX measures that consolidated operations KPIs, purchase orders, and shipment data—cutting weekly reporting time by 5 hours and resolving over 90% of data discrepancies in the same cycle.",
+      "Modeled semester-driven textbook demand forecasts in SQL and Excel using historical sales and enrollment data, reducing peak-season stockouts by 32% across 700+ campus stores.",
+      "Designed inventory replenishment plans in the ERP system for textbook seasons, improving fill rate from 88% to 95% while cutting post-semester excess inventory by $2.1M.",
+      "Automated distribution planning reports allocating stock to stores based on regional demand patterns, reducing manual planning time by 45% and improving store-level in-stock rates by 18%.",
+      "Developed KPI dashboards for order fulfillment and inventory levels in Power BI, giving leadership real-time visibility and reducing weekly reporting effort by 50%.",
+      "Analyzed sales and inventory data in SQL to identify slow-moving titles, driving markdown and reallocation decisions that improved inventory turnover by 13%.",
+      "Coordinated with warehouse and logistics teams on distribution schedules, reducing average order-to-store lead time by 2.1 days (24% improvement) during peak season.",
     ],
   },
   {
     company: "Capgemini Technology Services",
-    role: "Analyst",
+    role: "Supply Chain Analyst",
     location: "India",
     dates: "Aug 2021 — Jun 2024",
     bullets: [
-      "Led a Power BI executive dashboard integrating SAP and Oracle ERP data, giving leadership real-time KPI visibility and improving decision-making speed by 40%.",
-      "Designed automated SQL + Python ETL pipelines to cleanse and validate 5M+ daily records, reducing processing errors by 28% and cutting reporting time from 6 hours to 45 minutes; statistical root-cause analysis reduced forecast bias by 9%.",
-      "Built Tableau + SQL spend and performance analytics that supported a 7.2% YoY cost reduction; analyzed order-to-cash exceptions and contributed to SOP improvements that reduced fulfillment exceptions by 30%.",
+      "Built supplier scorecards in Power BI integrating delivery, quality, and spend data from SAP MM, improving on-time delivery from 74% to 90% across 40+ managed suppliers and reducing quality escalations by 30%.",
+      "Developed statistical demand forecast models in Python and SQL for a global manufacturing client, integrating 3 years of historical sales with seasonality and promotional inputs, reducing weighted MAPE from 38% to 29% across 600+ SKUs.",
+      "Automated safety stock and replenishment calculations in SQL based on demand variability and supplier lead times, reducing stockouts by 31% across A-class SKUs while maintaining 95% service level and cutting excess inventory by $2.4M.",
+      "Designed S&OP demand review dashboards in Power BI consolidating demand plans, supply plans, and inventory positions across 8 distribution regions, reducing planning cycle time from 11 days to 6 days.",
+      "Configured and executed MRP runs in SAP MM (MRP type PD/VB), optimizing lot-size and safety-stock parameters to improve material planning accuracy by 25% and reduce expedited freight costs by $340K annually.",
+      "Conducted root cause analysis on 15+ supplier delivery delay events using Python and SQL, applying Pareto and 5-Why analysis that reduced average procurement lead time by 3.1 days (26% improvement).",
     ],
   },
   {
     company: "Siemens",
-    role: "Operations Analyst",
+    role: "Procurement Analyst",
     location: "India",
-    dates: "Jan 2020 — Jul 2021",
+    dates: "Aug 2020 — Jul 2021",
     bullets: [
-      "Analyzed availability, balances, purchase orders, and usage in SAP and Excel, flagging shortages, excess, and delayed orders 3–7 days before they could affect operations.",
-      "Automated and consolidated weekly operations reporting, reducing report preparation time by 20%, and partnered with cross-functional teams to cut delay incidents by 15%.",
+      "Analyzed supplier quotes for technical components (motors, gearboxes, valves) in Excel, producing bid summaries that improved cost estimation accuracy by 17% across 120+ project bids.",
+      "Aligned RFQ requirements with project specifications for 90+ procurement packages, reducing clarification cycles by 25% and accelerating bid turnaround.",
+      "Maintained historical bid data and pricing benchmarks, enabling 15% faster vendor negotiations and more informed future cost estimates.",
+      "Prepared vendor evaluation reports comparing techno-commercial value rather than lowest price, improving data-driven vendor selection by 20% and reducing post-award disputes.",
+      "Presented procurement decision inputs to Project Procurement Managers, cutting decision-making time by 30% and improving project bidding competitiveness.",
+      "Tracked purchase order records and pricing history in Excel, improving pricing transparency by 35% and supporting repeatable cost benchmarking.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "Customer Electronics Case Study",
+    name: "Consumer Electronics Supply Chain Case Study",
     href: "https://github.com/Rkruhh/Supply-Chain-Case-Study",
-    tags: ["Planning", "ATP", "Forecast bias", "Python"],
+    tags: ["Python", "SQL", "Excel", "Planning"],
     summary:
-      "End-to-end planning case across DTC, marketplace, and retail. Cleaned multi-system inventory and SKUs, scored forecast bias vs. noise, and rebuilt a 13-week buy plan from actual lead-time variance.",
+      "End-to-end supply and inventory planning across DTC, marketplace, and retail. Cleaned multi-system inventory and SKU data and scored forecast bias versus noise to isolate true demand signal.",
     highlights: [
-      "Identified a 2,100-unit error and 1,260-unit duplicate receipt",
+      "Identified a 2,100-unit book error and a 1,260-unit duplicate receipt",
       "Restated sellable stock (ATP) by colorway and location",
-      "Rebuilt true cost/order and a not-just-margin allocation rule",
-    ],
-  },
-  {
-    name: "Supply Chain Analytics and Optimization",
-    href: "https://github.com/Rkruhh/PandasProjects",
-    tags: ["Pandas", "KPIs", "Inventory", "Suppliers"],
-    summary:
-      "Analyzed a beauty supply-chain dataset covering inventory, demand, supplier performance, lead times, manufacturing cost, shipping cost, and defect rates.",
-    highlights: [
-      "Developed operational KPIs and visualizations",
-      "Surfaced inventory risk, supplier inefficiency, and cost drivers",
-      "Mapped opportunities for process improvement",
+      "13-week buy plan with safety stock from actual lead-time variance",
     ],
   },
   {
@@ -155,54 +157,68 @@ export const projects = [
 
 export const skillGroups = [
   {
-    title: "Operations & Business Analytics",
+    title: "Languages & Querying",
     items: [
-      "Supply Chain Management",
+      "Python (pandas, NumPy, statsmodels)",
+      "SQL",
+      "Excel (advanced formulas, pivot tables, scenario modeling)",
+    ],
+  },
+  {
+    title: "Analytics & Visualization",
+    items: [
+      "Power BI",
+      "KPI Dashboarding",
+      "Executive Reporting",
+      "Root Cause Analysis (Pareto, 5-Why)",
+      "Scenario & What-If Analysis",
+    ],
+  },
+  {
+    title: "Planning & Forecasting",
+    items: [
+      "Statistical Demand Forecasting",
+      "Forecast Accuracy (MAPE, Bias)",
+      "S&OP / IBP",
+      "Demand Review",
+      "Safety Stock Optimization",
+      "Replenishment Planning",
+      "Distribution Planning",
+    ],
+  },
+  {
+    title: "Supply Chain & Inventory",
+    items: [
       "Inventory Optimization",
-      "Demand Planning & Forecasting",
-      "S&OP",
-      "Procurement Analytics",
-      "PO Management",
-      "Supplier Performance",
-      "Logistics & Freight Analytics",
-      "Order-to-Cash (O2C)",
+      "SLOB Reduction",
+      "Consignment Stock Management",
+      "Inventory Turnover",
+      "Fill Rate",
+      "On-Time Delivery (OTD)",
+      "Lead Time Reduction",
     ],
   },
   {
-    title: "Data & Analytics",
+    title: "Procurement & Supplier Management",
     items: [
-      "SQL (PostgreSQL, MySQL, T-SQL)",
-      "Python (Pandas, NumPy, SciPy)",
-      "Power BI & DAX",
-      "Tableau",
-      "Advanced Excel, VBA, Power Query",
-      "Data Modeling",
-      "KPI Analysis & Reporting",
-      "Dashboard Development",
+      "Supplier Scorecards",
+      "Vendor Evaluation",
+      "RFQ / Bid Analysis",
+      "Cost Benchmarking",
+      "Purchase Order Tracking",
     ],
   },
   {
-    title: "ERP, ETL & Data Management",
-    items: [
-      "SAP MM/SD",
-      "Oracle ERP",
-      "ERP Data Integration",
-      "ETL Pipelines",
-      "Data Cleansing & Validation",
-      "Data Quality",
-      "Reporting Automation",
-    ],
+    title: "ERP & Systems",
+    items: ["SAP MM", "MRP Configuration (PD/VB)", "ERP Replenishment Planning"],
   },
   {
-    title: "Process Improvement & Quality",
+    title: "Process & Collaboration",
     items: [
-      "Root Cause Analysis",
-      "Process Mapping",
-      "Lean Six Sigma",
-      "SOP Development",
-      "Agile/Scrum",
-      "Functional, Integration & Regression Testing",
-      "Jira",
+      "Cross-Functional Stakeholder Management",
+      "Report Automation",
+      "Process Improvement",
+      "Data-Driven Decision Making",
     ],
   },
 ];
@@ -238,60 +254,20 @@ export const certifications = [
     issuer: "DataCamp",
     dates: "Sep 2025",
   },
-  {
-    name: "Analysis and Reporting for Supply Chain Management",
-    issuer: "PMI",
-    dates: "Sep 2026",
-  },
-  {
-    name: "Explainable AI in Python",
-    issuer: "DataCamp",
-    dates: "Oct 2025",
-  },
-  {
-    name: "Working with Hugging Face",
-    issuer: "DataCamp",
-    dates: "Oct 2025",
-  },
-  {
-    name: "Deep Learning for Text with PyTorch",
-    issuer: "DataCamp",
-    dates: "Oct 2025",
-  },
-  {
-    name: "Introduction to Snowflake",
-    issuer: "DataCamp",
-    dates: "Oct 2025",
-  },
-  {
-    name: "Introduction to Generative AI in Snowflake",
-    issuer: "DataCamp",
-    dates: "Oct 2025",
-  },
-  {
-    name: "Introduction to Databricks",
-    issuer: "DataCamp",
-    dates: "Nov 2025",
-  },
-  {
-    name: "Machine Learning with PySpark",
-    issuer: "DataCamp",
-    dates: "Sep 2025",
-  },
 ];
 
 export const education = [
   {
     school: "University of North Carolina at Charlotte",
-    credential: "MS, Information Technology",
+    credential: "Master of Science in Information Technology",
     location: "Charlotte, NC, US",
-    dates: "Aug 2024 — May 2026",
+    dates: "May 2026",
   },
   {
     school: "University of Mumbai",
-    credential: "BE, Computer Science",
+    credential: "Bachelor of Engineering in Computer Science",
     location: "Mumbai, India",
-    dates: "Jun 2017 — May 2021",
+    dates: "May 2021",
   },
 ];
 

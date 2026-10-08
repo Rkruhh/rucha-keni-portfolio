@@ -7,7 +7,7 @@ export function SiteFooter() {
         <p>
           © 2026 {profile.name}
         </p>
-        <p>Data analyst · Florida, US</p>
+        <p>Supply chain analyst · Florida, USA</p>
       </div>
     </footer>
   );

@@ -9,14 +9,15 @@ export function Hero() {
       <div className="relative mx-auto grid w-full max-w-6xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,0.9fr)] lg:py-28">
         <div>
           <p className="font-mono text-xs tracking-[0.22em] text-primary uppercase">
-            Data Analytics · Dashboards · Automation
+            Demand Planning · Inventory · S&OP
           </p>
           <h1 className="mt-5 font-heading text-5xl leading-[0.95] text-balance sm:text-7xl">
             {profile.name}
           </h1>
           <p className="mt-5 max-w-xl text-lg text-muted-foreground text-pretty">
-            {profile.title}. I connect SQL, Python, and Power BI so operational
-            decisions are based on clean numbers—not last-minute fire drills.
+            {profile.title} with 5+ years across medical devices, retail,
+            manufacturing, and procurement. I forecast demand and manage inventory
+            with Python, SQL, Excel, Power BI, and SAP MM.
           </p>
           <div className="mt-6 flex items-center gap-2 text-sm text-muted-foreground">
             <MapPin className="size-4 text-primary" />
@@ -40,16 +41,17 @@ export function Hero() {
             Currently
           </p>
           <p className="mt-3 font-heading text-2xl leading-snug">
-            Analyst at Holiday Channel
+            Supply Chain Analyst II at Johnson & Johnson
           </p>
           <p className="mt-3 text-sm leading-6 text-muted-foreground">
-            Building Python/SQL validation pipelines and Power BI KPI reporting across
-            content, search, and marketplace data.
+            Demand forecasting, consignment inventory, and S&OP/IBP across 800+
+            medical device SKUs—Power BI KPIs, scenario models, and a reporting
+            cycle cut from 6 days to 2.
           </p>
           <dl className="mt-6 border-t border-border pt-5 text-sm">
             <div>
               <dt className="text-muted-foreground">Stack</dt>
-              <dd className="mt-1">SQL · Python · Power BI</dd>
+              <dd className="mt-1">Python · SQL · Power BI · SAP MM</dd>
             </div>
           </dl>
         </aside>
